@@ -1,0 +1,10 @@
+.quiz-container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    background-color: rgb(1, 0, 12);
+}
