@@ -1,8 +1,19 @@
-.quiz-details h1{
+
+.quiz-details-container h1{
     text-align: center;
     color: #03063A;
     text-decoration: underline;
     margin-top: 50px;
     margin-bottom: -30px;
     font-size: 2.5rem;
+}
+.quiz-details{
+    display: flex;
+}
+.quiz-all-questions{
+    width: 75%;
+}
+.cart-container{
+    width: 20%;
+    top: 20px;
 }

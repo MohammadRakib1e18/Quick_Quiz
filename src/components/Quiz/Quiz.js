@@ -7,12 +7,13 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Swal from "sweetalert2";
 
-const Quiz = ({ ques, quesId }) => {
+const Quiz = ({ ques, quesId, tryResult }) => {
   const notify = (corAns) => toast(corAns);
   const { options, question, correctAnswer } = ques;
 
   const isCorrect = (opt) => {
     if (opt === correctAnswer) {
+        tryResult(true);
       Swal.fire({
         icon: "success",
         title: "Congratulations!",
@@ -21,6 +22,7 @@ const Quiz = ({ ques, quesId }) => {
         timer: 1500,
       });
     }else{
+        tryResult(false);
         Swal.fire({
           icon: "error",
           title: "Wrong Answer!",
