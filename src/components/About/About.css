@@ -1,0 +1,47 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.about-img img{
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+.about .info{
+    text-align: center;
+    width: 50%;
+    
+}
+
+.info h2{
+    color: rgb(7, 52, 112);
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+.info h5{
+    margin-top:5px;
+    font-size: 1rem;
+    color: rgb(13, 40, 99);
+}
+.info p{
+    color: rgb(51, 50, 50);
+    font-size: 1.1rem;
+}
+.info button{
+    font-size: 1.5rem;
+    color: rgb(13, 40, 99);
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px){
+    .about{
+        flex-direction: column;
+        text-align: left;
+    }
+    .about .info{
+        width: 90%;
+        text-align: left;
+    }
+}

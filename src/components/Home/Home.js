@@ -1,12 +1,14 @@
-import React from 'react';
-import QuizContainer from '../QuizContainer/QuizContainer';
+import React from "react";
+import Header from "../Header/Header";
+import QuizContainer from "../QuizContainer/QuizContainer";
 
 const Home = () => {
-    return (
-        <div>
-           <QuizContainer></QuizContainer> 
-        </div>
-    );
+  return (
+    <div>
+      <Header></Header>
+      <QuizContainer></QuizContainer>
+    </div>
+  );
 };
 
 export default Home;
