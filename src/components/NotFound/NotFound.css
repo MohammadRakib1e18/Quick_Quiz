@@ -1,0 +1,32 @@
+.not-found {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found h1 {
+  margin-bottom: 5px;
+  font-size: 150px;
+  font-weight: 800;
+  color: red;
+}
+.not-found h4 {
+  margin: 0px 5px;
+  color: rgb(240, 114, 114);
+}
+.not-found p {
+  font-weight: 600;
+  color: rgb(90, 89, 89);
+}
+.not-found-button {
+  margin-top: 50px;
+}
+.not-found-button button {
+  border: 2px solid rgb(240, 114, 114);
+  color: rgb(240, 114, 114);
+}
+
+.not-found-button button::before {
+    background-color: rgb(240, 114, 114);
+}
