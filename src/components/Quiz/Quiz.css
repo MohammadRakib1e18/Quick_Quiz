@@ -1,5 +1,5 @@
 .questions-container{
-    width: 60%;
+    width: 70%;
     margin: 100px auto;
     text-align: center;
 }
@@ -11,6 +11,18 @@
 .quiz-ques{
     color: rgb(10, 41, 107);
     font-size: 1.2rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.quiz-ques h2{
+    width: 90%;
+    text-align: left;
+}
+.quiz-ques h3{
+    cursor: pointer;
 }
 .quiz-ques h2 span{
     color: #0b99eb;
