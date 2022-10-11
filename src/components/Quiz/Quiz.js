@@ -1,17 +1,26 @@
 import React from "react";
+import Option from "../Option/Option";
 import './Quiz.css';
 
-const Quiz = ({ data }) => {
-  const { id, logo, name, total } = data;
+const Quiz = ({ ques, quesId }) => {
+  const {options, question, correctAnswer } = ques;
+  console.log(quesId);
+  // console.log(ques.correctAnswer);
   return (
-    <div className="quiz">
-      <div className="quiz-img">
-        <img src={logo} alt="" />
-      </div>
-      <div className="quiz-description">
-        <h3>{name}</h3>
-        <button>Start Practice</button>
-      </div>
+    <div className="questions-container">
+      <section className="quiz-ques">
+        <h2>
+          <span>Quiz {quesId} :</span> {question}
+        </h2>
+      </section>
+      <section className="options-container">
+        {
+            options.map((option,idk) => <Option
+                key={idk}
+                option={option}
+            ></Option>)
+        }
+      </section>
     </div>
   );
 };

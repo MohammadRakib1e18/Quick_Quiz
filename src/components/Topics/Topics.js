@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
-import Quiz from "../Quiz/Quiz";
+import QuizMenu from "../QuizMenu/QuizMenu";
 import "./Topics.css";
 
 const Topics = () => {
@@ -29,7 +29,7 @@ const Topics = () => {
       </span>
       <div className="topics">
         {loaderData?.map((data) => (
-          <Quiz key={data.id} data={data}></Quiz>
+          <QuizMenu key={data.id} data={data}></QuizMenu>
         ))}
       </div>
     </div>

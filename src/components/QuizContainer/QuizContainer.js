@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Quiz from "../Quiz/Quiz";
+import QuizMenu from "../QuizMenu/QuizMenu";
 import "./QuizContainer.css";
 
 const QuizContainer = () => {
@@ -18,7 +18,7 @@ const QuizContainer = () => {
       </h1>
       <div className="all-quiz">
         {loaderData?.map((data) => (
-          <Quiz key={data.id} data={data}></Quiz>
+          <QuizMenu key={data.id} data={data}></QuizMenu>
         ))}
       </div>
     </div>
