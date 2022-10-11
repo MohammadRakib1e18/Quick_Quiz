@@ -1,0 +1,21 @@
+.topics{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    background-color: rgb(1, 0, 12);
+    min-height: 600px;
+}
+.topics-container{
+    background-color: rgb(1, 0, 12);
+    padding-top: 10px;
+}
+
+.topics-container span{
+    display: flex;
+    justify-content: center;
+    color: white;
+}

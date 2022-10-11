@@ -52,9 +52,7 @@ nav ul li {
   align-items: center;
   text-decoration: none;
 }
-.active:hover {
-  background-color: #3db4f8;
-}
+
 .inactive {
   background-color: #0865a325;
   color: white;
@@ -63,6 +61,7 @@ nav ul li {
   align-items: center;
   text-decoration: none;
 }
+
 @media screen and (max-width: 800px) {
   .menuBar {
     display: block;

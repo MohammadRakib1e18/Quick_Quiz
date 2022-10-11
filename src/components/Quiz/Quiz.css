@@ -4,8 +4,10 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 40px;
-  border-radius: 10px;
   padding: 5px 15px;
+  max-height: 450px;
+  border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .quiz:hover {
   background-color: rgba(70, 69, 69, 0.534);

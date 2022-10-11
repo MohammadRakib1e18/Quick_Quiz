@@ -29,6 +29,7 @@
   font-size: 3rem;
   margin-bottom: 0px;
 }
+
 .header-button {
   width: 250px;
   padding: 5px 10px;
@@ -63,6 +64,6 @@
   width: 105%;
 }
 
-.header-button:hover {
+ .header-button:hover {
   color: white;
 }
