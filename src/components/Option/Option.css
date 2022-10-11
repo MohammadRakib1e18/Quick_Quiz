@@ -1,5 +1,5 @@
 .single-option{
-    border: 2px solid rgba(56, 66, 83, 0.425);
+    border: 1px solid rgb(180, 179, 179);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     color: #114775;
     border-top-left-radius: 35px;
@@ -9,6 +9,8 @@
     cursor: pointer;
 }
 .single-option:hover{
-    border: 2px solid rgb(6, 46, 92);
+    border: 1px solid rgb(6, 46, 92);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #588ab6;
+    color: white;
 }
