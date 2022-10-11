@@ -1,11 +1,16 @@
 import React from 'react';
+import BarChartContainer from './BarChartContainer';
+import PieChartContainer from './PieChartContainer';
+import './Statistics.css'
 
 const Statistics = () => {
-    return (    
-        <div>
-            <h2>Statistics section</h2>
+    return (
+        <div className='chart'>
+            <h2>Visualization of Statistics</h2>
+            <PieChartContainer></PieChartContainer>
+            <BarChartContainer></BarChartContainer>
         </div>
     );
 };
 
-export default Statistics;  <h2>Statistics section</h2>
+export default Statistics;

@@ -1,0 +1,13 @@
+.chart{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(19, 19, 19, 0.068);
+}
+.chart h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(3, 6, 58);
+}
