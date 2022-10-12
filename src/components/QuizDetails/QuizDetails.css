@@ -28,8 +28,8 @@
     .cart-container{
         width: 95%;
         order: 1;
+        position: relative;
         background-color: white;
-        top: 0;
         margin-left: 2%;
     }
     .quiz-all-questions{
