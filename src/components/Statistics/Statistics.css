@@ -12,3 +12,14 @@
     color: rgb(3, 6, 58);
     text-decoration: underline;
 }
+@media screen and (max-width:992px) and (min-width:689px) {
+    .chart h2{
+        font-size:2rem;
+    }
+}
+@media screen and (max-width:688px){
+    .chart h2{
+        font-size:1.3rem;
+        text-align: center;
+    }
+} 

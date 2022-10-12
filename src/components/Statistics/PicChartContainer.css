@@ -1,0 +1,13 @@
+.pie-chart-container{
+    width: 40%;
+}
+@media screen and (max-width:992px) and (min-width:689px) {
+    .pie-chart-container{
+        width: 60%;
+    }
+}
+@media screen and (max-width:688px){
+    .pie-chart-container{
+        width: 100%;
+    }
+} 
