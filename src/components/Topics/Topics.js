@@ -14,8 +14,8 @@ const Topics = () => {
   }, []);
   return (
     <div className="topics-container">
-      <span
-        style={{ fontSize: "2.5rem", color: "#3db4f8", fontWeight: "bold" }}
+      <span className="type-writer"
+        style={{ color: "#3db4f8", fontWeight: "bold" }}
       >
         <Typewriter
           words={["Quiz Menu", "Test Your Web Skill"]}

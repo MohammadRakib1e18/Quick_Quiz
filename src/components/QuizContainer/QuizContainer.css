@@ -12,13 +12,13 @@
     color: #3db4f8;
 }
 .all-quiz{
-    width: 100%;
+    width: 98%;
     margin: 0 auto;
-    padding: 15px 50px;
+    padding: 20px 0px;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 20px;
     
 }
 .show-text-animation{
@@ -50,4 +50,20 @@
     100%{
         left: 80%
     }
+}
+@media screen and (max-width: 992px) and (min-width: 689px) {
+  .all-quiz {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .all-quiz {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px 50px;
+  }
+  .type-writer {
+    font-size: 2rem;
+  }
 }
