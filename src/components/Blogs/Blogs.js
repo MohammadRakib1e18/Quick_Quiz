@@ -11,7 +11,7 @@ const Blogs = () => {
         <article
           class="blogs"
           data-aos="zoom-in-right"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
         >
           <h5 class="blogs-Que">1: What is the purpose of React Router?</h5>
           <p class="blogs-Ans">
@@ -32,7 +32,7 @@ const Blogs = () => {
         <article
           class="blogs"
           data-aos="zoom-in-left"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
         >
           <h5 class="blogs-Que">2: How does context API works?</h5>
           <p class="blogs-Ans">
@@ -50,7 +50,7 @@ const Blogs = () => {
         <article
           class="blogs"
           data-aos="zoom-in-right"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
         >
           <h5 class="blogs-Que">
             3: Why do we use it and How does useRef works?

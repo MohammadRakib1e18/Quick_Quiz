@@ -35,7 +35,7 @@ const Quiz = ({ ques, quesId, tryResult }) => {
 
   return (
     <div className="questions-container">
-      <ToastContainer />
+      <ToastContainer className='toast-container'/>
       <section className="quiz-ques">
         <h2>
           <span>Quiz {quesId} :</span> {question}

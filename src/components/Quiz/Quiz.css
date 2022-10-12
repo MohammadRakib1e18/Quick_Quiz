@@ -32,6 +32,10 @@
 .quiz-ques h2 span{
     color: #0b99eb;
 }
+.toast-container{
+    position: relative;
+    z-index: 1000;
+}
 
 @media screen and (max-width: 688px){
     .quiz-ques{
