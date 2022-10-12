@@ -32,3 +32,9 @@
 .quiz-ques h2 span{
     color: #0b99eb;
 }
+
+@media screen and (max-width: 688px){
+    .quiz-ques{
+        font-size: 1rem;
+    }
+};
