@@ -15,8 +15,6 @@ const Quiz = ({ ques, quesId, tryResult }) => {
     });
   }
   const isCorrect = (opt) => {
-    console.log("one: ", opt);
-    console.log("two: ", correctAnswer);
     if (opt === correctAnswer) {
       tryResult(true);
       Swal.fire({

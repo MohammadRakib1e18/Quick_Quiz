@@ -16,7 +16,6 @@ const PieChartContainer = () => {
       .then((data) => {
         let names=[], totals=[];
         data.data.forEach((dt) => {
-          console.log(dt);
           names.push(dt.name);
           totals.push(dt.total);
           
