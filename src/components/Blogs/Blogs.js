@@ -8,7 +8,11 @@ const Blogs = () => {
         <span>C</span>oder's <span>B</span>logs <span>H</span>ouse!
       </h2>
       <div className="blogs-container">
-        <article class="blogs">
+        <article
+          class="blogs"
+          data-aos="zoom-in-right"
+          data-aos-duration="3000"
+        >
           <h5 class="blogs-Que">1: What is the purpose of React Router?</h5>
           <p class="blogs-Ans">
             React router is a library to navigate among the different pages of a
@@ -25,7 +29,11 @@ const Blogs = () => {
             </ul>
           </p>
         </article>
-        <article class="blogs">
+        <article
+          class="blogs"
+          data-aos="zoom-in-left"
+          data-aos-duration="3000"
+        >
           <h5 class="blogs-Que">2: How does context API works?</h5>
           <p class="blogs-Ans">
             Context is primarily used when some data needs to be accessible by
@@ -39,7 +47,11 @@ const Blogs = () => {
             prop.
           </p>
         </article>
-        <article class="blogs">
+        <article
+          class="blogs"
+          data-aos="zoom-in-right"
+          data-aos-duration="3000"
+        >
           <h5 class="blogs-Que">
             3: Why do we use it and How does useRef works?
           </h5>
@@ -53,9 +65,9 @@ const Blogs = () => {
             the useRef.
           </p>
           <p class="blogs-Ans">
-            We generally use it when we need to manage:     
+            We generally use it when we need to manage:
             <ul>
-              <li>focus</li> 
+              <li>focus</li>
               <li>text selection</li>
               <li>trigger imperative interaction</li>
               <li>integrating third-party libraries</li>

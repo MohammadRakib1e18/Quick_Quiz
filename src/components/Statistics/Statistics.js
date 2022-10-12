@@ -6,7 +6,7 @@ import './Statistics.css'
 const Statistics = () => {
     return (
       <div className="chart">
-        <h2>👓 Visualization of Statistics 👓</h2>
+        <h2 data-aos="zoom-in-down">👓 Visualization of Statistics 👓</h2>
         <PieChartContainer></PieChartContainer>
         <BarChartContainer></BarChartContainer>
       </div>
