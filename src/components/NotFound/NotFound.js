@@ -9,7 +9,7 @@ const NotFound = () => {
     return (
       <div className="not-found">
         <h1>☠ 404 ☠</h1>
-        <h4>😥 Sorry, the page not found 😥</h4>
+        <h4>😥 Sorry, the page is not found 😥</h4>
         <p>
           The link you followed probably broken or the page has been removed
         </p>
