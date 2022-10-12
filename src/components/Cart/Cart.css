@@ -29,3 +29,12 @@ td {
   color: rgb(6, 27, 83);
   font-size: 1.2rem;
 }
+td{
+  font-weight: 700;
+}
+.correct-data{
+  color: green;
+}
+.wrong-data{
+  color: red;
+}

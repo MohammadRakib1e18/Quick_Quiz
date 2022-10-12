@@ -13,19 +13,25 @@ const QuizDetails = () => {
   let quesId = 1;
 
   const tryResult = (isCorrect) => {
-
-    setTotalTry(totalTry+1);
-    if(isCorrect) setCorrect(correct+1);
-    else setWrong(wrong+1);
-  }
+    setTotalTry(totalTry + 1);
+    if (isCorrect) setCorrect(correct + 1);
+    else setWrong(wrong + 1);
+  };
 
   return (
     <div className="quiz-details-container">
-      <h1>Quiz of {name}</h1>
+      <div className="quiz-title">
+        <h1>Quiz of {name}</h1>
+      </div>
       <div className="quiz-details">
         <div className="quiz-all-questions">
           {questions.map((ques) => (
-            <Quiz key={ques.id} tryResult={tryResult} quesId={quesId++} ques={ques}></Quiz>
+            <Quiz
+              key={ques.id}
+              tryResult={tryResult}
+              quesId={quesId++}
+              ques={ques}
+            ></Quiz>
           ))}
         </div>
         <div className="cart-container">

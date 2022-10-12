@@ -9,13 +9,14 @@ const Quiz = ({ ques, quesId, tryResult }) => {
   const { options, question, correctAnswer } = ques;
   const notify = (corAns) => {
     Swal.fire({
-      text: '[correct answer]',
-      title: `${corAns}`,
+      text: `[correct answer]: ${corAns}`,
       showConfirmButton: true,
       timer: 1500,
     });
   }
   const isCorrect = (opt) => {
+    console.log("one: ", opt);
+    console.log("two: ", correctAnswer);
     if (opt === correctAnswer) {
       tryResult(true);
       Swal.fire({

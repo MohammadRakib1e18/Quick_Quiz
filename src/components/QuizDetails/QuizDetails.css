@@ -1,5 +1,8 @@
-.quiz-details-container h1{
-    text-align: center;
+.quiz-title{
+    display: flex;
+    justify-content: center;
+}
+.quiz-title h1{
     color: #03063A;
     text-decoration: underline;
     margin-top: 50px;
