@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Navbar from '../components/Navbar/Navbar';
 import ScrollToTop from "react-scroll-to-top";
+import Footer from '../components/Footer/Footer';
 
 const Main = () => {
     return (
@@ -17,6 +18,7 @@ const Main = () => {
         />
         <Navbar></Navbar>
         <Outlet></Outlet>
+        <Footer></Footer>
       </div>
     );
 };

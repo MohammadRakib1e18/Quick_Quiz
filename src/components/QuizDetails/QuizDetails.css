@@ -24,6 +24,7 @@
   margin-top: 100px;
   position: sticky;
   top: 20px;
+  z-index: 1000;
 }
 
 @media screen and (max-width: 780px) {
@@ -31,11 +32,10 @@
     flex-direction: column;
   }
   .cart-container {
-    width: 95%;
+    width: 100%;
     order: 1;
-    position: relative;
+    top: 0;
     background-color: white;
-    margin-left: 2%;
   }
   .quiz-all-questions {
     width: 100%;
